@@ -18,6 +18,7 @@ var schema = mongoose.Schema({
 		ref : 'TagCategory'
 	},
 	dependencies : [ {
+		_id : String,
 		tags : [ {
 			type : String,
 			ref : 'Tag'
